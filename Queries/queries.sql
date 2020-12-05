@@ -81,3 +81,28 @@ WHERE de.dept_no IN ('d005','d007')
 AND de.to_date = ('9999-01-01')
 ORDER BY dept_no ASC
 ;
+SELECT COUNT (emp_no)
+FROM sales_info;
+
+--correct
+SELECT ce.emp_no,
+	ce.first_name,
+	ce.last_name,
+	de.dept_no
+INTO salesdev_info
+FROM current_emp AS ce
+INNER JOIN dept_emp AS de
+	ON (ce.emp_no=de.emp_no)
+WHERE de.dept_no IN ('d005','d007')
+-- AND de.to_date = ('9999-01-01')
+ORDER BY dept_no ASC
+
+
+SELECT COUNT(ce.emp_no), de.dept_no
+INTO Current_emp_info
+FROM current_emp as ce
+LEFT JOIN dept_emp as de
+ON ce.emp_no = de.emp_no
+GROUP BY de.dept_no
+ORDER BY de.dept_no;
+
