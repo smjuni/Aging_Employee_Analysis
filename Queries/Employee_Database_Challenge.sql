@@ -17,7 +17,6 @@ SELECT DISTINCT ON (r.emp_no) r.emp_no,
 r.first_name,
 r.last_name,
 r.title
-
 INTO unique_titles
 FROM retirement_titles as r
 ORDER BY emp_no, to_date DESC;
