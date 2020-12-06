@@ -21,7 +21,7 @@ The objective of this assignment is to help Pewlett-Hackard evaluate the amount 
 ### **Deliverable 2 - Employees Eligible for a Mentorship Program**
 
 -  In deliverable 2 we assessed the amount of staff and their current roles eligible to be included in the mentorship program. There are 1549 current staff members born in 1965 (the criteria for eligibility) to be mentored.
-- There is an anomaly between the given output for the challenge versus the module instructions. Employee 10291 is eligible for mentorship, but in the module his title is staff, even though in the titles table the first and current title for this employee is senior staff.
+- There is an anomaly between the given output for the challenge versus the module instructions. Employee 10291 is eligible for mentorship, but in the module his title is staff, even though in the titles table the first listed and current title for this employee is senior staff.
 <img src= "images/eligible_for_mentors.png"> </img>
 
 
