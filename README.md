@@ -1,13 +1,13 @@
 # Pewlett-Hackard-Analysis
 
-### Module 7 - SQL
+### SQL
 
 ## Overview
-The objective of this assignment is to help Pewlett-Hackard evaluate the amount of employees who will soon be retiring and identify employees who are eligible to participate in a mentorship program in order to prepare for the "silver tsunami".
+The objective of this assignment is to help "Pewlett-Hackard" evaluate the amount of employees who will soon be retiring and identify employees who are eligible to participate in a mentorship program in order to prepare for the "silver tsunami".
 
 - In deliverable 1 our purpose is to identify the titles of the employees that are due to retire soon (born between 1952 and 1955) and to count the number of retiring employees currently in each title.
 
-- In deliverable 2 our task is to identify which employees currently working at Pewlett-Hackard are eligible for a mentorship program. The eligibility requirements are that the employee is born in 1965. An additional requirement I used in this deliverable is "title.to_date" to ensure that the employees current title is listed for mentorship.
+- In deliverable 2 our task is to identify which employees currently working at "Pewlett-Hackard" are eligible for a mentorship program. The eligibility requirements are that the employee is born in 1965. An additional requirement I used in this deliverable is "title.to_date" to ensure that the employees current title is listed for mentorship.
 
 ## Results
 ### **Deliverable 1 - Number of Retiring Employees by Title**
